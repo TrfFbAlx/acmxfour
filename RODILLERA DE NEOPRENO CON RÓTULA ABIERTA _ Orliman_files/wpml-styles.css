@@ -1,0 +1,112 @@
+.top-header-menu img.iclflag,
+#nav-menu img.iclflag,
+#mobile-nav-menu img.iclflag,
+.footer-bottom-menu img.iclflag {
+	display: none;
+}
+.icl_post_in_other_langs {
+	padding: 20px;
+	font-size: 12px;
+	font-weight: 600;
+	background-color: #f5f5f5;
+}
+#top-footer #icl_lang_sel_widget .widget-header,
+#sidebar #icl_lang_sel_widget .widget-header,
+#footer #icl_lang_sel_widget .widget-header {
+	margin-bottom: 37px;
+}
+#top-footer #icl_lang_sel_widget.widget li,
+#sidebar #icl_lang_sel_widget.widget li,
+#footer #icl_lang_sel_widget.widget li,
+#sidebar #lang_sel_list.lang_sel_list_vertical {
+	padding: 0;
+	width: 100%;
+	display: block;
+	font-size: 12px;
+	float: none;
+	border-bottom: none;
+}
+#top-footer #icl_lang_sel_widget.widget a,
+#top-footer #icl_lang_sel_widget.widget ul a,
+#sidebar #icl_lang_sel_widget.widget a,
+#sidebar #icl_lang_sel_widget.widget ul a,
+#footer #icl_lang_sel_widget.widget a,
+#footer #icl_lang_sel_widget.widget ul a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 24px;
+}
+#top-footer #icl_lang_sel_widget #lang_sel ul ul,
+#sidebar #icl_lang_sel_widget #lang_sel ul ul,
+#footer #icl_lang_sel_widget #lang_sel ul ul {
+	width: 100%;
+	top:35px;
+	z-index: 2;
+	background-color: #fff;
+}
+#top-footer #icl_lang_sel_widget #lang_sel,
+#sidebar #icl_lang_sel_widget #lang_sel,
+#footer #icl_lang_sel_widget #lang_sel {
+	display: block;
+}
+#top-footer #lang_sel img.iclflag,
+#sidebar #lang_sel img.iclflag,
+#footer #lang_sel img.iclflag,
+#sidebar #lang_sel_list img.iclflag { 
+	display: inline;
+	top: 0;
+}
+#lang_sel_list.lang_sel_list_vertical ul {
+	height: 100%;
+}
+#lang_sel_list.lang_sel_list_vertical,
+#lang_sel_list.lang_sel_list_horizontal {
+	height: 100%;
+}
+#icl_lang_sel_widget.widget #lang_sel_list.lang_sel_list_horizontal li,
+#lang_sel_list.lang_sel_list_horizontal a {
+	display: inline;
+}
+#lol_footer_language_list {
+	margin-top: 20px;
+	padding-top: 20px;
+	list-style-type: none;
+	text-align: center;
+	border-top: 2px solid #252728;
+}
+#lol_footer_language_list li {
+	margin: 0 7px;
+	display: inline-block;
+}
+#lol_footer_language_list img {
+	margin-right: 5px;
+	display: inline;
+}
+#top-header .top-language-switcher {
+	margin-bottom: 5px;
+	display: block;
+}
+#top-header .top-language-switcher li {
+	margin-right: 0!important;
+	display: inline-block;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+#top-header .top-language-switcher li:after {
+	padding: 0 5px;
+	content: "/";
+}
+#top-header .top-language-switcher li:last-child:after {
+	padding: 0;
+	content: "";
+}
+@media (min-width: 992px) {
+	#top-header .top-language-switcher {
+		margin-bottom: 0;
+		display: inline-block;
+	}
+}
+.no-responsive #top-header .top-language-switcher {
+	margin-bottom: 0;
+	display: inline-block;
+}
